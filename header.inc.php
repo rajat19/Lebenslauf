@@ -24,7 +24,7 @@
 		<div class="spinner"></div>
 	</div>
 </div>
-<div id="wrapper" class="margLTop  margLBottom">
+<div id="wrapper" class="margTop margLBottom">
 	<!--Container-->
 	<div class="container">
 		<div class="row ">

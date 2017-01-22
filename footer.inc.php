@@ -15,7 +15,7 @@
 <script src="js/placeholders.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/Switcher/switcher.js"></script>
 <script src="js/script.js" type="text/javascript"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAErQ52cVQDdBBVFFuHP5vBksvVEjWNXvE&v=3.exp&amp;sensor=false"></script>
 
 
 <script>
@@ -62,8 +62,8 @@ $('#wrapper').bind('easytabs:after', function() {
 	        }
 	      ],
 
-	       lat = -33.867487,
-	       lng = 151.20699,
+	       lat = 28.6767,
+	       lng = 77.5008,
 	       customMap = new google.maps.StyledMapType(styles,
 	          {name: 'Styled Map'}),
 
