@@ -18,7 +18,7 @@
 		<!--End experience tab -->
 		<!--Education Tab-->
 		<?php include 'education.php'; ?>
-		<!--End Education tab -->
+		<!--End Education  tab -->
 		<!--Contact Tab-->
 		<?php include 'contact.php'; ?>
 		<!--End contact tab-->

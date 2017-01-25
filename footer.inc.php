@@ -15,15 +15,35 @@
 <script src="js/placeholders.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/Switcher/switcher.js"></script>
 <script src="js/script.js" type="text/javascript"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAErQ52cVQDdBBVFFuHP5vBksvVEjWNXvE&v=3.exp&amp;sensor=false"></script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAErQ52cVQDdBBVFFuHP5vBksvVEjWNXvE&v=3.exp&amp;sensor=false"></script> -->
 
 
-<script>
+<script type="text/javascript">
+    $(document).ready(function() {
+    	// $('#wrapper').hide();
+        $(window).load(function() {
+            preloaderFade = 10000;
+            function hidepreloader() {
+                // var p1 = $('.sk-cube-grid');
+                // p1.fadeOut(preloaderFade);
+                var p2 = $('.spinner-wrapper');
+                p2.delay(200).fadeOut(preloaderFade);
+                // $('#wrapper').fadeIn(preloaderFade + 5000);
+            }
+            hidepreloader();
+
+        });
+    });
+
+function printme() {
+	win = window.open("pdfweb.html");
+	win.close();
+}
+
 (function($) {
   "use strict";
 
 $(document).ready(function(){
-
 	$('#wrapper').easytabs({
 	animate			: true,
 	updateHash		: false,
@@ -100,5 +120,4 @@ $('#wrapper').bind('easytabs:after', function() {
 <!-- Google analytics -->
 <!-- End google analytics -->
 </body>
-<!-- Mirrored from demo.mutationmedia.net/SPLIT/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 21 Jan 2017 14:54:34 GMT -->
 </html>

@@ -15,15 +15,31 @@
 	<link href="css/fontello.css" rel="stylesheet" type="text/css"  media="all">
 	<link href="css/base.css" rel="stylesheet" type="text/css" media="all"/>
 	<link href="css/main.css"  rel="stylesheet" type="text/css" media="all"/>
+	<link rel="stylesheet" type="text/css" href="css/preloader.css">
 	<!--Alternate styles-->
 	
 </head>
 <body>
-<div id="loader">
+<div class="spinner-wrapper">
+    <div class="spinner2"></div>
+</div>
+<!-- <div class="sk-cube-grid">
+  <div class="sk-cube sk-cube1"></div>
+  <div class="sk-cube sk-cube2"></div>
+  <div class="sk-cube sk-cube3"></div>
+  <div class="sk-cube sk-cube4"></div>
+  <div class="sk-cube sk-cube5"></div>
+  <div class="sk-cube sk-cube6"></div>
+  <div class="sk-cube sk-cube7"></div>
+  <div class="sk-cube sk-cube8"></div>
+  <div class="sk-cube sk-cube9"></div>
+</div> -->
+<!-- <div id="loader">
 	<div id="loaderInner">
 		<div class="spinner"></div>
 	</div>
-</div>
+</div> -->
+
 <div id="wrapper" class="margTop margLBottom">
 	<!--Container-->
 	<div class="container">
@@ -48,12 +64,12 @@
 						<!--Main navigation-->
 						<nav id="main-nav" class="main-nav clearfix tabbed">
 							<ul>
-								<li ><a href="#about"><i class="icon-user"></i>About</a></li>
-								<li><a  href="#skill"><i class="icon-code"></i>Professional Skills</a></li>
-								<li><a  href="#portfolio"><i class="icon-info"></i>Portfolio</a></li>
-								<li><a  href="#experience"><i class="icon-suitcase"></i>Experience</a></li>
-								<li><a  href="#education"><i class="icon-graduation-cap"></i>Education</a></li>
-								<li><a  href="#contact"><i class="icon-phone"></i>Contact</a></li>
+								<li><a href="#about"><i class="icon-user"></i>About</a></li>
+								<li><a href="#skill"><i class="icon-code"></i>Professional Skills</a></li>
+								<li><a href="#portfolio"><i class="icon-info"></i>Portfolio</a></li>
+								<li><a href="#experience"><i class="icon-suitcase"></i>Experience</a></li>
+								<li><a href="#education"><i class="icon-graduation-cap"></i>Education</a></li>
+								<li><a href="#contact"><i class="icon-phone"></i>Contact</a></li>
 							</ul>
 						</nav>
 					<!--End main navigation-->
@@ -62,10 +78,10 @@
 				
 					<div class="bottom-header bgWhite ofsTSmall ofsBSmall tCenter">
 						<ul class="social">
-						<li><a href="https://www.facebook.com/profile.php?id=100001691098653"><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/profile.php?id=100001691098653" target="_blank"><i class="icon-facebook"></i></a></li>
 						<!-- <li><a href="#"><i class="icon-twitter"></i></a></li> -->
-						<li><a href="https://www.github.com/rajat19"><i class="icon-github"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/rajat-srivastava-752849a9"><i class="icon-linkedin"></i></a></li>
+						<li><a href="https://www.github.com/rajat19" target="_blank"><i class="icon-github"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/rajatsriv19" target="_blank"><i class="icon-linkedin"></i></a></li>
 						</ul>
 						<p>&copy; 2017 Technocrats.</p>
 						
