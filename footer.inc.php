@@ -22,7 +22,7 @@
     $(document).ready(function() {
     	// $('#wrapper').hide();
         $(window).load(function() {
-            preloaderFade = 10000;
+            preloaderFade = 3000;
             function hidepreloader() {
                 // var p1 = $('.sk-cube-grid');
                 // p1.fadeOut(preloaderFade);
