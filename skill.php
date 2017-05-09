@@ -46,6 +46,14 @@
 	</div>
 	</li>
 	<li>
+	<h4>Django Framework</h4>
+	<div class="progress">
+	<div class="percentage">
+	72%
+	</div>
+	</div>
+	</li>
+	<li>
 	<h4>HTML/CSS</h4>
 	<div class="progress">
 	<div class="percentage">
@@ -117,6 +125,14 @@
 	<div class="progress">
 	<div class="percentage">
 	90%
+	</div>
+	</div>
+	</li>
+	<li>
+	<h4>python</h4>
+	<div class="progress">
+	<div class="percentage">
+	85%
 	</div>
 	</div>
 	</li>

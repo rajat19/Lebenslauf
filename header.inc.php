@@ -78,7 +78,7 @@
 				
 					<div class="bottom-header bgWhite ofsTSmall ofsBSmall tCenter">
 						<ul class="social">
-						<li><a href="https://www.facebook.com/profile.php?id=100001691098653" target="_blank"><i class="icon-facebook"></i></a></li>
+						<li><a href="https://www.facebook.com/srivrajat" target="_blank"><i class="icon-facebook"></i></a></li>
 						<!-- <li><a href="#"><i class="icon-twitter"></i></a></li> -->
 						<li><a href="https://www.github.com/rajat19" target="_blank"><i class="icon-github"></i></a></li>
 						<li><a href="https://www.linkedin.com/in/rajatsriv19" target="_blank"><i class="icon-linkedin"></i></a></li>

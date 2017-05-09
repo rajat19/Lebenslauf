@@ -15,7 +15,7 @@
 <script src="js/placeholders.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/Switcher/switcher.js"></script>
 <script src="js/script.js" type="text/javascript"></script>
-<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAErQ52cVQDdBBVFFuHP5vBksvVEjWNXvE&v=3.exp&amp;sensor=false"></script> -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAErQ52cVQDdBBVFFuHP5vBksvVEjWNXvE&v=3.exp&amp;sensor=false"></script>
 
 
 <script type="text/javascript">
@@ -102,10 +102,6 @@ $('#wrapper').bind('easytabs:after', function() {
 			marker = new google.maps.Marker({
 	        position: myLatlng,
 	        map: map,
-			icon: {
-			            url: 'img/marker.png',
-			            scaledSize: new google.maps.Size(26, 42)
-			        }
 	      });
 	      map.mapTypes.set('map_style', customMap);
 	      map.setMapTypeId('map_style');

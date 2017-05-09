@@ -195,19 +195,19 @@
 					
 					<!--Item-->	
 					<div class="item web">
-					<a  href="#!">
+					<a  href="http://gentle-headland-81648.herokuapp.com/music">
 						<div class="desc">
-						<h3 class="proj-desc">Tweet Box
+						<h3 class="proj-desc">Musica
 						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
 						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
 						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
 		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
 						</svg>
 						</span>						
-						 <span>php</span>
-						 <span>laravel</span></h3>
+						 <span>python</span>
+						 <span>django</span></h3>
 						</div>
-						<img alt="" src="img/projects/tweet.png">
+						<img alt="" src="img/projects/musica.png">
 					</a>
 					</div>
 				<!--End item-->	
@@ -252,6 +252,28 @@
 						 <span>@nisani</span></h3>
 						</div>
 						<img alt="" src="img/projects/erp.png">
+					</a>
+					</div>
+				<!--End item-->	
+				</li>
+
+				<li class="col-md-6 ">
+					
+					<!--Item-->	
+					<div class="item web">
+					<a  href="#!">
+						<div class="desc">
+						<h3 class="proj-desc">Tweet Box
+						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
+						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
+						</svg>
+						</span>						
+						 <span>php</span>
+						 <span>laravel</span></h3>
+						</div>
+						<img alt="" src="img/projects/tweet.png">
 					</a>
 					</div>
 				<!--End item-->	
