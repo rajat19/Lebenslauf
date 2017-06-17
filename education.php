@@ -49,7 +49,19 @@
 	<h4>Bachelor Degree – Ajay Kumar Garg Engineering College </h4>
 	<h6><i class="icon-calendar"></i>Aug 2013 - Jun 2017</h6>
 	</div>
-	<p>Currently pursuing 4th year of my Btech in computer science stream.</p>
+	<p>Pursued Btech in computer science stream.</p>
+	<p>B.Tech aggregate: 80.72%</p>
+	</div>
+	<!--End experience-->
+
+	<!--Experience-->
+	<div class="exp">
+	<div class="hgroup" >
+	<h4>Schooling – Dr. VSEC, Kanpur </h4>
+	<h6><i class="icon-calendar"></i>Apr 1999 - May 2012</h6>
+	</div>
+	<p>10th marks: 89.71% (ICSE) </p>
+	<p>12th marks: 89.67% (ISC) </p>
 	</div>
 	<!--End experience-->
 	<!--End experience holder-->

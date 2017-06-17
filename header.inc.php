@@ -53,7 +53,7 @@
 					
 						<!--Profile image-->
 						<figure class="img-profile">
-							<img src="img/p4.jpg" alt=""/>
+							<img src="img/agr2.jpg" alt=""/>
 							
 							<figcaption class="name-profile">
 								<span>rajat srivastava<sup>&reg;</sup></span>

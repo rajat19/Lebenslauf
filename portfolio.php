@@ -29,7 +29,8 @@
 				<div class="block-filter tCenter">
 					<ul id="category" class="filter">
 						<li><a data-filter="all" href="#" class="active">All</a></li>
-						<li><a data-filter="web" href="#">Website</a></li>
+						<li><a data-filter="web-php" href="#">PHP</a></li>
+						<li><a data-filter="web-py" href="#">Python</a></li>
 						<li><a data-filter="android" href="#">Android</a></li>
 						<li><a data-filter="research" href="#">Research</a></li>
 				</ul>
@@ -58,7 +59,7 @@
 				<li class="col-md-6 ">
 					
 					<!--Item-->	
-					<div class="item web">
+					<div class="item web-php">
 					<a  href="#!">
 						<div class="desc">
 						<h3 class="proj-desc">Club-Technocrats.net
@@ -80,7 +81,7 @@
 				<li class="col-md-6 ">
 					
 					<!--Item-->	
-					<div class="item web">
+					<div class="item web-php">
 					<a  href="http://www.justwravel.com">
 						<div class="desc">
 						<h3 class="proj-desc">Justwravel
@@ -104,7 +105,7 @@
 				<li class="col-md-6 ">
 					
 					<!--Item-->	
-					<div class="item web research">
+					<div class="item web-php research">
 					<a  href="#!">
 						<div class="desc">
 						<h3 class="proj-desc">Geosearch
@@ -126,7 +127,7 @@
 				<li class="col-md-6 ">
 					
 					<!--Item-->	
-					<div class="item web">
+					<div class="item web-php">
 					<a  href="http://117.55.241.41/qpportal">
 						<div class="desc">
 						<h3 class="proj-desc">Model Paper Portal
@@ -148,7 +149,7 @@
 				<li class="col-md-6 ">
 					
 					<!--Item-->	
-					<div class="item web">
+					<div class="item web-php">
 					<a  href="#!">
 						<div class="desc">
 						<h3 class="proj-desc">Samarpan
@@ -194,7 +195,7 @@
 				<li class="col-md-6 ">
 					
 					<!--Item-->	
-					<div class="item web">
+					<div class="item web-py">
 					<a  href="http://gentle-headland-81648.herokuapp.com/music">
 						<div class="desc">
 						<h3 class="proj-desc">Musica
@@ -216,7 +217,7 @@
 				<li class="col-md-6 ">
 					
 					<!--Item-->	
-					<div class="item web android">
+					<div class="item web-php android">
 					<a  href="http://paradox.eu5.org">
 						<div class="desc">
 						<h3 class="proj-desc">Timetable Management
@@ -238,7 +239,29 @@
 				<li class="col-md-6 ">
 					
 					<!--Item-->	
-					<div class="item web">
+					<div class="item web-py">
+					<a  href="#!">
+						<div class="desc">
+						<h3 class="proj-desc">Kora Kagaz
+						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
+						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
+						</svg>
+						</span>						
+						 <span>python</span>
+						 <span>django</span></h3>
+						</div>
+						<img alt="" src="img/projects/kora.png">
+					</a>
+					</div>
+				<!--End item-->	
+				</li>
+
+				<li class="col-md-6 ">
+					
+					<!--Item-->	
+					<div class="item web-php">
 					<a  href="#!">
 						<div class="desc">
 						<h3 class="proj-desc">Student ERP Portal
@@ -260,7 +283,7 @@
 				<li class="col-md-6 ">
 					
 					<!--Item-->	
-					<div class="item web">
+					<div class="item web-php">
 					<a  href="#!">
 						<div class="desc">
 						<h3 class="proj-desc">Tweet Box
@@ -282,10 +305,10 @@
 				<li class="col-md-6 ">
 					
 					<!--Item-->	
-					<div class="item web">
+					<div class="item web-php">
 					<a  href="#!">
 						<div class="desc">
-						<h3 class="proj-desc">Lab Management System
+						<h3 class="proj-desc">Fifa Creations
 						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
 						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
 						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
@@ -293,75 +316,9 @@
 						</svg>
 						</span>						
 						 <span>php</span>
-						 <span>codeigniter</span></h3>
+						 <span>laravel</span></h3>
 						</div>
-						<img alt="" src="img/portfolio/1.jpg">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web">
-					<a  href="#!">
-						<div class="desc">
-						<h3 class="proj-desc">Faculty Portal
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>php</span>
-						 <span>moodle</span></h3>
-						</div>
-						<img alt="" src="img/portfolio/2.jpg">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>		
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item android">
-					<a  href="#!">
-						<div class="desc">
-						<h3 class="proj-desc">Hospital Management System
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>java</span>
-						 <span>android</span></h3>
-						</div>
-						<img alt="" src="img/portfolio/5.jpg">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web">
-					<a  href="#!">
-						<div class="desc">
-						<h3 class="proj-desc">Technocrats Smartasp
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>asp.net</span>
-						 <span>c#</span></h3>
-						</div>
-						<img alt="" src="img/portfolio/11.jpg">
+						<img alt="" src="img/projects/fifa.png">
 					</a>
 					</div>
 				<!--End item-->	
