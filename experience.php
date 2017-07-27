@@ -50,7 +50,7 @@
 	<div class="hgroup" >
 	<h4>Research Analyst – Open Source R&D Center </h4>
 	<h6><i class="icon-calendar"></i>Jan 2014 - June 2017</h6>
-	</div>
+	</div>	
 	<p>Part of college research & development center. Worked on various college and inter college level projects related to websites and android apps</p>
 	</div>
 	<!--End experience-->
