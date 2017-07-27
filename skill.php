@@ -33,7 +33,7 @@
 	<h4>PHP/MYSQL</h4>
 	<div class="progress">
 	<div class="percentage">
-	84%
+	93%
 	</div>
 	</div>
 	</li>
@@ -41,7 +41,7 @@
 	<h4>Laravel Framework</h4>
 	<div class="progress">
 	<div class="percentage">
-	76%
+	83%
 	</div>
 	</div>
 	</li>
@@ -49,7 +49,23 @@
 	<h4>Django Framework</h4>
 	<div class="progress">
 	<div class="percentage">
-	72%
+	81%
+	</div>
+	</div>
+	</li>
+	<li>
+	<h4>Node Js (Express and Koa)</h4>
+	<div class="progress">
+	<div class="percentage">
+	86%
+	</div>
+	</div>
+	</li>
+	<li>
+	<h4>Vue js</h4>
+	<div class="progress">
+	<div class="percentage">
+	83%
 	</div>
 	</div>
 	</li>
@@ -57,7 +73,7 @@
 	<h4>HTML/CSS</h4>
 	<div class="progress">
 	<div class="percentage">
-	88%
+	95%
 	</div>
 	</div>
 	</li>
@@ -65,7 +81,7 @@
 	<h4>Bootstrap/Material Design</h4>
 	<div class="progress">
 	<div class="percentage">
-	87%
+	96%
 	</div>
 	</div>
 	</li>
@@ -124,7 +140,7 @@
 	<h4>c/c++</h4>
 	<div class="progress">
 	<div class="percentage">
-	90%
+	94%
 	</div>
 	</div>
 	</li>
@@ -132,7 +148,7 @@
 	<h4>python</h4>
 	<div class="progress">
 	<div class="percentage">
-	85%
+	88%
 	</div>
 	</div>
 	</li>
@@ -140,7 +156,7 @@
 	<h4>java</h4>
 	<div class="progress">
 	<div class="percentage">
-	79%
+	81%
 	</div>
 	</div>
 	</li>
@@ -148,7 +164,7 @@
 	<h4>javascript</h4>
 	<div class="progress">
 	<div class="percentage">
-	74%
+	77%
 	</div>
 	</div>
 	</li>
@@ -197,7 +213,7 @@
 	<h4>Responsible</h4>
 	<div class="progress">
 	<div class="percentage">
-	85%
+	90%
 	</div>
 	</div>
 	</li>
@@ -205,7 +221,7 @@
 	<h4>Creative</h4>
 	<div class="progress">
 	<div class="percentage">
-	75%
+	79%
 	</div>
 	</div>
 	</li>
@@ -213,7 +229,7 @@
 	<h4>Multitasking</h4>
 	<div class="progress">
 	<div class="percentage">
-	90%
+	93%
 	</div>
 	</div>
 	</li>

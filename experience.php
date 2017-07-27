@@ -39,19 +39,19 @@
 	<!--Experience-->
 	<div class="exp">
 	<div class="hgroup" >
-	<h4>Web Developer – Open Source R&D Center </h4>
-	<h6><i class="icon-calendar"></i>Jan 2014 - <span class="current">Current</span></h6>
+	<h4>Software Developer - Smartprix.com</h4>
+	<h6><i class="icon-calendar"></i>Jun 2017 - <span class="current">Current</span></h6>
 	</div>
-	<p>Part of college research & development center. Working on various college and inter college level projects related to websites</p>
+	<p>Currently working on Store Panel for the website</p>
 	</div>
 	<!--End experience-->
 	<!--Experience-->
 	<div class="exp">
 	<div class="hgroup" >
-	<h4>Android App Developer – Open Source R&D Center </h4>
-	<h6><i class="icon-calendar"></i>Jan 2015 - <span class="current">Current</span></h6>
+	<h4>Research Analyst – Open Source R&D Center </h4>
+	<h6><i class="icon-calendar"></i>Jan 2014 - June 2017</h6>
 	</div>
-	<p>Part of college research & development center.projects related to android apps</p>
+	<p>Part of college research & development center. Worked on various college and inter college level projects related to websites and android apps</p>
 	</div>
 	<!--End experience-->
 	<!--Experience-->
