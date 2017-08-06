@@ -82,8 +82,8 @@ $('#wrapper').bind('easytabs:after', function() {
 	        }
 	      ],
 
-	       lat = 28.6767,
-	       lng = 77.5008,
+	       lat = 28.5943918,
+	       lng = 77.3789757,
 	       customMap = new google.maps.StyledMapType(styles,
 	          {name: 'Styled Map'}),
 

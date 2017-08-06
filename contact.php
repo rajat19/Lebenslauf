@@ -97,7 +97,7 @@
 													<!--Address info-->	
 													<div class="address-info">
 													<i class="icon-location"></i>
-													<p>Club Technocrats <br>Ajay Kumar Garg Engineering College</p>
+													<p>Club Technocrats</p>
 													</div>
 													<!--End address info-->
 
@@ -109,8 +109,8 @@
 														<p>Email : rajatsri94@gmail.com </p></li>
 														<li><div class="ico"><i class="icon-phone"></i></div>
 														<p>Tel : +91 9598343458</p></li>
-														<li><div class="ico"><i class="icon-link"></i></div>
-															<p>WebSite : <a href="#">www.akgec.in/oss</a></p></li>
+<!-- 														<li><div class="ico"><i class="icon-link"></i></div>
+															<p>WebSite : <a href="#">www.akgec.in/oss</a></p></li> -->
 													</ul>
 													</div>
 													<!--End contact info-->	
