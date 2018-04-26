@@ -58,7 +58,7 @@
 
 				<div class="row tCenter margTop">
 				<div class="col-md-12">
-				<a class="but opc-1 ico" href="resume.pdf" target="_blank">Download my cv</a>
+				<a class="but opc-1 ico" href="cvRajat.pdf" target="_blank">Download my cv</a>
 				<!-- <a class="but opc-2 ico" href="printme();">Print my resume</a> -->
 
 				</div>
