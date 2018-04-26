@@ -42,7 +42,7 @@
 	<h4>Software Developer - Smartprix.com</h4>
 	<h6><i class="icon-calendar"></i>Jun 2017 - <span class="current">Current</span></h6>
 	</div>
-	<p>Currently working on Store Panel for the website</p>
+	<p>Working on various projects using node js, vue js and other new technologies</p>
 	</div>
 	<!--End experience-->
 	<!--Experience-->
@@ -75,7 +75,7 @@
 	<!--Experience-->
 	<div class="exp">
 	<div class="hgroup" >
-	<h4>Web Developer – Nisani</h4>
+	<h4>Web Developer Intern – Nisani</h4>
 	<h6><i class="icon-calendar"></i>May 2015 - Sep 2015</h6>
 	</div>
 	<p>Worked on Company's ERP Portal, worked as an intern</p>

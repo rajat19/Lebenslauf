@@ -30,6 +30,22 @@
 
 	<ul class="skills-list clearfix">
 	<li>
+	<h4>Node Js (Express and Koa)</h4>
+	<div class="progress">
+	<div class="percentage">
+	92%
+	</div>
+	</div>
+	</li>
+	<li>
+	<h4>Vue js</h4>
+	<div class="progress">
+	<div class="percentage">
+	87%
+	</div>
+	</div>
+	</li>
+	<li>
 	<h4>PHP/MYSQL</h4>
 	<div class="progress">
 	<div class="percentage">
@@ -49,23 +65,7 @@
 	<h4>Django Framework</h4>
 	<div class="progress">
 	<div class="percentage">
-	81%
-	</div>
-	</div>
-	</li>
-	<li>
-	<h4>Node Js (Express and Koa)</h4>
-	<div class="progress">
-	<div class="percentage">
-	86%
-	</div>
-	</div>
-	</li>
-	<li>
-	<h4>Vue js</h4>
-	<div class="progress">
-	<div class="percentage">
-	83%
+	88%
 	</div>
 	</div>
 	</li>
@@ -164,7 +164,7 @@
 	<h4>javascript</h4>
 	<div class="progress">
 	<div class="percentage">
-	77%
+	85%
 	</div>
 	</div>
 	</li>
@@ -221,7 +221,7 @@
 	<h4>Creative</h4>
 	<div class="progress">
 	<div class="percentage">
-	79%
+	82%
 	</div>
 	</div>
 	</li>
@@ -229,7 +229,7 @@
 	<h4>Multitasking</h4>
 	<div class="progress">
 	<div class="percentage">
-	93%
+	95%
 	</div>
 	</div>
 	</li>

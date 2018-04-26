@@ -20,7 +20,7 @@
 			<div class="block-content margBSmall">
 			<div class=" profile margBSmall">
 				<h1>Rajat Srivastava</h1>
-				<h3>App developer / Web developer</h3>
+				<h3>Web Developer / Machine Learning Enthusiast</h3>
 			</div>
 			<!--Row-->	
 			<div class="row">
@@ -41,16 +41,16 @@
 				<div class="row">
 				<div class="col-md-6">
 					<ul class="info-list clearfix">
-					<li><span class="inf">Name </span>  <span class="value">Rajat Srivastava</span></li>
+					<li><span class="inf">Name </span>  <span class="value"> Rajat Srivastava</span></li>
 					<li><span class="inf">Date of birth</span>  <span class="value"> July 8, 1995 </span></li>
 					<li><span class="inf">Current City</span>  <span class="value"> New Delhi</span></li>
 					</ul>
 				</div>
 				<div class="col-md-6">
 					<ul class="info-list">
-					<li><span class="inf">Email</span>  <span class="value">rajatsri94@gmail.com</span></li>
-					<li><span class="inf">Phone</span>  <span class="value">9910364830</span></li>
-					<li><span class="inf">Skype</span>  <span class="value">Rajat19</span></li>
+					<li><span class="inf">Email</span>  <span class="value"> rajatsri94@gmail.com</span></li>
+					<li><span class="inf">Phone</span>  <span class="value" >9910364830</span></li>
+					<li><span class="inf">Skype</span>  <span class="value"> Rajat19</span></li>
 					</ul>
 				</div>
 				</div>

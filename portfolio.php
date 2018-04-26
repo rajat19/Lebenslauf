@@ -29,6 +29,7 @@
 				<div class="block-filter tCenter">
 					<ul id="category" class="filter">
 						<li><a data-filter="all" href="#" class="active">All</a></li>
+						<li><a data-filter="web-js" href="#">Javascript</a></li>
 						<li><a data-filter="web-php" href="#">PHP</a></li>
 						<li><a data-filter="web-py" href="#">Python</a></li>
 						<li><a data-filter="android" href="#">Android</a></li>
@@ -59,20 +60,21 @@
 				<li class="col-md-6 ">
 					
 					<!--Item-->	
-					<div class="item web-php">
-					<a  href="#!">
+					<div class="item web-js">
+					<a  href="http://www.smartprix.com">
 						<div class="desc">
-						<h3 class="proj-desc">Club-Technocrats.net
+						<h3 class="proj-desc">Smartprix.com
 						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
 						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
 						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
 		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
 						</svg>
 						</span>						
-						 <span>php</span>
-						 <span>javascript</span></h3>
+						 <span>node js</span>
+						 <span>marko js</span></h3>
+						 <span>@smartprix</span></h3>
 						</div>
-						<img alt="" src="img/projects/technocrats.png">
+						<img alt="" src="img/projects/smartprix.png">
 					</a>
 					</div>
 				<!--End item-->	
@@ -195,28 +197,6 @@
 				<li class="col-md-6 ">
 					
 					<!--Item-->	
-					<div class="item web-py">
-					<a  href="http://gentle-headland-81648.herokuapp.com/music">
-						<div class="desc">
-						<h3 class="proj-desc">Musica
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>python</span>
-						 <span>django</span></h3>
-						</div>
-						<img alt="" src="img/projects/musica.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
 					<div class="item web-php android">
 					<a  href="http://paradox.eu5.org">
 						<div class="desc">
@@ -239,8 +219,74 @@
 				<li class="col-md-6 ">
 					
 					<!--Item-->	
-					<div class="item web-py">
+					<div class="item web-php">
 					<a  href="#!">
+						<div class="desc">
+						<h3 class="proj-desc">Club-Technocrats.net
+						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
+						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
+						</svg>
+						</span>						
+						 <span>php</span>
+						 <span>javascript</span></h3>
+						</div>
+						<img alt="" src="img/projects/technocrats.png">
+					</a>
+					</div>
+				<!--End item-->	
+				</li>
+
+				<li class="col-md-6 ">
+					
+					<!--Item-->	
+					<div class="item web-py">
+					<a  href="https://draft-machine.herokuapp.com">
+						<div class="desc">
+						<h3 class="proj-desc">Drafter
+						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
+						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
+						</svg>
+						</span>						
+						 <span>python</span>
+						 <span>django</span></h3>
+						</div>
+						<img alt="" src="img/projects/drafter.png">
+					</a>
+					</div>
+				<!--End item-->	
+				</li>
+
+				<li class="col-md-6 ">
+					
+					<!--Item-->	
+					<div class="item web-py">
+					<a  href="http://gentle-headland-81648.herokuapp.com/music">
+						<div class="desc">
+						<h3 class="proj-desc">Musica
+						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
+						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
+		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
+						</svg>
+						</span>						
+						 <span>python</span>
+						 <span>django</span></h3>
+						</div>
+						<img alt="" src="img/projects/musica.png">
+					</a>
+					</div>
+				<!--End item-->	
+				</li>
+
+				<li class="col-md-6 ">
+					
+					<!--Item-->	
+					<div class="item web-py">
+					<a  href="https://kora-kagaz.herokuapp.com">
 						<div class="desc">
 						<h3 class="proj-desc">Kora Kagaz
 						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
