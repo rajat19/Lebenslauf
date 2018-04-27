@@ -440,8 +440,8 @@
 	margin-bottom:0;
 }
 
-.skill .cod.progress {
-  border:1px solid #d3e0ed;
+.skill .cod .progress {
+  border:1px solid #a2d223;
 }
 
 .skill.des .progress {
@@ -639,12 +639,12 @@
 .exp .hgroup h6 span.current{
 	color:#ffffff;
 	background: #cd5353;
-	border-radius:6px;
-	-moz-border-radius:6px
-	-webkit-border-radius :6px;
-	-ms-border-radius:6px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-ms-border-radius: 6px;
 	-o-border-radius: 6px;
-	padding:1px 12px;
+	padding: 1px 12px;
 }
 
 
