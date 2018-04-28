@@ -79,8 +79,8 @@
   position: absolute;
   top: 48%;
   left: 48%;
-  -webkit-animation: sk-rotateplane 0.3s infinite ease-in-out;
-  animation: sk-rotateplane 0.3s infinite ease-in-out;
+  -webkit-animation: sk-rotateplane 1s infinite ease-in-out;
+  animation: sk-rotateplane 1s infinite ease-in-out;
 }
 
 @-webkit-keyframes sk-rotateplane {

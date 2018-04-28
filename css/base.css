@@ -22,7 +22,7 @@
 
 * { margin:0; padding:0; }
 
-	.android img {
+	.android img, .web-js img, .web-php img, .web-py img {
 		max-height: 207px !important;
 		width: auto !important;
 	}
