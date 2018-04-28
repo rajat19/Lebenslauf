@@ -10,7 +10,7 @@ $backend = [
 ];
 
 $frontend = [
-	'heading' => 'Frotend And Mobile Dev',
+	'heading' => 'Frontend Development',
 	'progress' => [
 		['Vue JS', 87],
 		['HTML/CSS', 95],
@@ -44,9 +44,7 @@ $skills = [
 ?>
 
 <section id="skill" class="bgWhite ofsInBottom">						
-	<!--About -->
 	<div class="skill">
-	<!--Main title-->
 		<div class="main-title">
 			<h1>professional skills</h1>
 			<div class="divider">
@@ -67,7 +65,7 @@ $skills = [
 			$class = $classes[$i%4];
 			echo '
 			<div class="block-content margBMedium">
-				<div class=" skill $class">
+				<div class=" skill '.$class.'">
 					<div class="row">
 						<div class="vc">
 							<div class="col-md-11">
@@ -90,7 +88,7 @@ $skills = [
 								</ul>
 							</div>
 							<div class="col-md-1">
-								<div class="title $class">
+								<div class="title '.$class.'">
 									<span>'.$heading.'</span>
 								</div>
 							</div>

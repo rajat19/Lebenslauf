@@ -1,10 +1,115 @@
-<!--Portfolio Tab-->
+<?php
+$filters = [
+	['All', 'all'],
+	['Javascript', 'web-js'],
+	['PHP', 'web-php'],
+	['Python', 'web-py'],
+	['Android', 'android'],
+	['Research', 'research']
+];
+
+$projects = [
+	[
+		'filters' => ['web-js'],
+		'link' => 'https://smartprix.com',
+		'name' => 'Smartprix',
+		'tags' => ['nodejs', 'vuejs', '@smartprix'],
+		'image' => 'smartprix'
+	],
+	[
+		'filters' => ['web-php', 'web-js'],
+		'link' => 'https://justwravel.com',
+		'name' => 'Justwravel',
+		'tags' => ['php', 'codeigniter', '@justwravel'],
+		'image' => 'justwravel'
+	],
+	[
+		'filters' => ['web-php', 'research'],
+		'link' => 'https://github.com/rajat19/Geosearch',
+		'name' => 'Geosearch',
+		'tags' => ['php', 'laravel'],
+		'image' => 'geosearch'
+	],
+	[
+		'filters' => ['web-php'],
+		'link' => 'http://117.55.241.41/qpportal',
+		'name' => 'Model Paper Portal',
+		'tags' => ['php', 'jquery', '@aktu'],
+		'image' => 'uptu'
+	],
+	[
+		'filters' => ['web-php'],
+		'link' => 'https://github.com/rajat19/Samarpan-Web',
+		'name' => 'Samarpan',
+		'tags' => ['php', 'laravel', '@sysbiome'],
+		'image' => 'samarpan'
+	],
+	[
+		'filters' => ['android'],
+		'link' => 'https://github.com/rajat19/Samarpan-App',
+		'name' => 'Samarpan App',
+		'tags' => ['java', 'material design', '@sysbiome'],
+		'image' => 'samarpan-app',
+		'ext' => 'jpg'
+	],
+	[
+		'filters' => ['web-php'],
+		'link' => 'http://paradox.eu5.org',
+		'name' => 'Timetable Management',
+		'tags' => ['php', 'java'],
+		'image' => 'timetable'
+	],
+	[
+		'filters' => ['web-php'],
+		'name' => 'Club-Technocrats.net',
+		'tags' => ['php', 'javascript'],
+		'image' => 'technocrats'
+	],
+	[
+		'filters' => ['web-py'],
+		'link' => 'https://draft-machine.herokuapp.com',
+		'name' => 'Drafter',
+		'tags' => ['python', 'django'],
+		'image' => 'drafter'
+	],
+	[
+		'filters' => ['web-py'],
+		'link' => 'http://gentle-headland-81648.herokuapp.com/music',
+		'name' => 'Musica',
+		'tags' => ['python', 'django'],
+		'image' => 'musica'
+	],
+	[
+		'filters' => ['web-py'],
+		'link' => 'https://kora-kagaz.herokuapp.com',
+		'name' => 'Kora Kagaz',
+		'tags' => ['python', 'django'],
+		'image' => 'kora'
+	],
+	[
+		'filters' => ['web-php'],
+		'name' => 'Student ERP Portal',
+		'tags' => ['php', '@nisani'],
+		'image' => 'erp'
+	],
+	[
+		'filters' => ['web-php'],
+		'name' => 'Tweet Box',
+		'tags' => ['php', 'laravel'],
+		'image' => 'tweet'
+	],
+	[
+		'filters' => ['web-php'],
+		'name' => 'Fifa Creations',
+		'tags' => ['php', 'laravel'],
+		'image' => 'fifa'
+	],
+];
+?>
 <section id="portfolio" class="bgWhite ofsInBottom">
-	<!--Portfolio -->
 	<div class="portfolio">
-	<!--Main title-->
-	<div class="main-title">
-		<h1>portfolio</h1>
+		<div class="main-title">
+			<h1>portfolio</h1>
 			<div class="divider">
 				<div class="zigzag large clearfix "  data-svg-drawing="yes" >
 					<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -14,389 +119,75 @@
 				</div>
 			</div>
 		</div>	
-		<!--End main title-->
-		<!--Content-->	
 		<div class="content">
-
-			<!--Block content-->	
 			<div class="block-content ">
-
-			<!--Works-->
-			<div class="works">
-			<!--Row-->	
-			<div class="row">
-				
-				<div class="block-filter tCenter">
-					<ul id="category" class="filter">
-						<li><a data-filter="all" href="#" class="active">All</a></li>
-						<li><a data-filter="web-js" href="#">Javascript</a></li>
-						<li><a data-filter="web-php" href="#">PHP</a></li>
-						<li><a data-filter="web-py" href="#">Python</a></li>
-						<li><a data-filter="android" href="#">Android</a></li>
-						<li><a data-filter="research" href="#">Research</a></li>
-				</ul>
-				</div>
-			</div>
-			<!--End row-->
-			<!--Row-->
-			<div class="row">
-				
-				<div class="divider-m tCenter margTSSmall margBSmall clearfix">
-					<div class="col-md-12">
-						<div class="zigzag medium clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="45" height="5" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
+				<div class="works">
+					<div class="row">					
+						<div class="block-filter tCenter">
+							<ul id="category" class="filter">
+								<li><a data-filter="all" href="#" class="active">All</a></li>
+								<li><a data-filter="web-js" href="#">Javascript</a></li>
+								<li><a data-filter="web-php" href="#">PHP</a></li>
+								<li><a data-filter="web-py" href="#">Python</a></li>
+								<li><a data-filter="android" href="#">Android</a></li>
+								<li><a data-filter="research" href="#">Research</a></li>
+							</ul>
 						</div>
 					</div>
-				</div>
-			</div>
-			<!--End row-->
-			<!--Row-->	
-			<div class="row">
-				
-				<ul class="work">
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web-js">
-					<a  href="http://www.smartprix.com">
-						<div class="desc">
-						<h3 class="proj-desc">Smartprix.com
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>node js</span>
-						 <span>marko js</span></h3>
-						 <span>@smartprix</span></h3>
-						</div>
-						<img alt="" src="img/projects/smartprix.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web-php">
-					<a  href="http://www.justwravel.com">
-						<div class="desc">
-						<h3 class="proj-desc">Justwravel
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>php</span>
-						 <span>codeigniter</span>
-						 <span>@justwravel.com</span>
-						 </h3>
-						</div>
-						<img alt="" src="img/projects/justwravel.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web-php research">
-					<a  href="#!">
-						<div class="desc">
-						<h3 class="proj-desc">Geosearch
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>php</span>
-						 <span>laravel</span></h3>
-						</div>
-						<img alt="" src="img/projects/geosearch.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web-php">
-					<a  href="http://117.55.241.41/qpportal">
-						<div class="desc">
-						<h3 class="proj-desc">Model Paper Portal
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>php</span>
-						 <span>@uptu</span></h3>
-						</div>
-						<img alt="" src="img/projects/uptu.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web-php">
-					<a  href="#!">
-						<div class="desc">
-						<h3 class="proj-desc">Samarpan
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>php</span>
-						 <span>laravel</span>
-						 <span>@sysbiome</span></h3>
-						</div>
-						<img alt="" src="img/projects/samarpan.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item android">
-					<a  href="#!">
-						<div class="desc">
-						<h3 class="proj-desc">Samarpan App
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>android</span>
-						 <span>material design</span>
-						 <span>@sysbiome</span></h3>
-						</div>
-						<img alt="" src="img/projects/samarpan-app.jpg">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web-php android">
-					<a  href="http://paradox.eu5.org">
-						<div class="desc">
-						<h3 class="proj-desc">Timetable Management
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>php</span>
-						 <span>java</span></h3>
-						</div>
-						<img alt="" src="img/projects/timetable.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web-php">
-					<a  href="#!">
-						<div class="desc">
-						<h3 class="proj-desc">Club-Technocrats.net
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>php</span>
-						 <span>javascript</span></h3>
-						</div>
-						<img alt="" src="img/projects/technocrats.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web-py">
-					<a  href="https://draft-machine.herokuapp.com">
-						<div class="desc">
-						<h3 class="proj-desc">Drafter
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>python</span>
-						 <span>django</span></h3>
-						</div>
-						<img alt="" src="img/projects/drafter.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web-py">
-					<a  href="http://gentle-headland-81648.herokuapp.com/music">
-						<div class="desc">
-						<h3 class="proj-desc">Musica
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>python</span>
-						 <span>django</span></h3>
-						</div>
-						<img alt="" src="img/projects/musica.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web-py">
-					<a  href="https://kora-kagaz.herokuapp.com">
-						<div class="desc">
-						<h3 class="proj-desc">Kora Kagaz
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>python</span>
-						 <span>django</span></h3>
-						</div>
-						<img alt="" src="img/projects/kora.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web-php">
-					<a  href="#!">
-						<div class="desc">
-						<h3 class="proj-desc">Student ERP Portal
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>php</span>
-						 <span>@nisani</span></h3>
-						</div>
-						<img alt="" src="img/projects/erp.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web-php">
-					<a  href="#!">
-						<div class="desc">
-						<h3 class="proj-desc">Tweet Box
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>php</span>
-						 <span>laravel</span></h3>
-						</div>
-						<img alt="" src="img/projects/tweet.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-				<li class="col-md-6 ">
-					
-					<!--Item-->	
-					<div class="item web-php">
-					<a  href="#!">
-						<div class="desc">
-						<h3 class="proj-desc">Fifa Creations
-						<span class="zigzag work clearfix "  data-svg-drawing="yes" >
-						<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
-						<path d="M1.357,12.26 10.807,2.81 20.328,12.332
-		29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
-						</svg>
-						</span>						
-						 <span>php</span>
-						 <span>laravel</span></h3>
-						</div>
-						<img alt="" src="img/projects/fifa.png">
-					</a>
-					</div>
-				<!--End item-->	
-				</li>
-
-			</ul>
-			
-			</div>
-			<!--End row-->
-
-										
-										
-										
-
-
-		                            </div>
-									<!--End works-->
-									
-									<div class="clearfix"></div>
-
-									</div>
-									<!--End block content-->
-									
-									
-									
-									</div>
-									<!--End content-->
+					<div class="row">					
+						<div class="divider-m tCenter margTSSmall margBSmall clearfix">
+							<div class="col-md-12">
+								<div class="zigzag medium clearfix "  data-svg-drawing="yes" >
+								<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="45" height="5" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+								<path d="M1.357,12.26 10.807,2.81 20.328,12.332 29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
+								</svg>
 								</div>
-										<!--End portfolio-->
-
-									</section>
-										<!--End portfolio tab-->
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<ul class="work">
+						<?php
+						foreach ($projects as $project) {
+							$link = $project['link']?:'#';
+							$filters = '';
+							$tags = '';
+							$ext = $project['ext']?:'png';
+							$image = $project['image'].'.'.$ext;
+							foreach ($project['filters'] as $filter) {
+								$filters .= "$filter ";
+							}
+							foreach ($project['tags'] as $tag) {
+								$tags .= "<span>$tag</span>";
+							}
+							echo '
+							<li class="col-md-6 ">
+								<div class="item '.$filters.'">
+								<a  href="'.$link.'">
+									<div class="desc">
+									<h3 class="proj-desc">'.$project["name"].'
+										<span class="zigzag work clearfix "  data-svg-drawing="yes" >
+											<svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="25" height="10" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
+											<path d="M1.357,12.26 10.807,2.81 20.328,12.332 29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "  style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"/>
+											</svg>
+										</span>
+										'.$tags.'
+									</h3>
+									</div>
+									<img alt="" src="img/projects/'.$image.'"/>
+								</a>
+								</div>
+							</li>';
+						}
+						?>
+						</ul>		
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+</section>
 										
 										
 										
