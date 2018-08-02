@@ -3,7 +3,7 @@
 <head>
  	<!-- Metas -->
     <meta charset="utf-8">
-    <title>Mein Lebenslauf</title>
+    <title>Biografya</title>
     <meta name="description" content="">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Css -->
@@ -53,7 +53,7 @@
 					
 						<!--Profile image-->
 						<figure class="img-profile">
-							<img src="img/agr2.jpg" alt=""/>
+							<img src="img/hdphone.jpg" alt=""/>
 							
 							<figcaption class="name-profile">
 								<span>rajat srivastava<sup>&reg;</sup></span>

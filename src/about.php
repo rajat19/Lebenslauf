@@ -48,7 +48,7 @@
 				<a class="but opc-1 ico" href="cvRajat.pdf" target="_blank">Download my cv</a>
 				</div>
 				<div class="col-md-6">
-				<a class="but opc-1 ico" href="resumeRajat.pdf" target="_blank">One Page Resume</a>
+				<a class="but opc-1 ico" href="currentResume.pdf" target="_blank">One Page Resume</a>
 				</div>
 				</div>
 				</div>
