@@ -17,6 +17,20 @@ $projects = [
 		'image' => 'smartprix'
 	],
 	[
+		'filters' => ['web-js'],
+		'link' => 'https://smartprix.com',
+		'name' => 'Smartprix International',
+		'tags' => ['nodejs', 'markojs', '@smartprix'],
+		'image' => 'smartprix-intl'
+	],
+	[
+		'filters' => ['android'],
+		'link' => '',
+		'name' => 'Smartprix App',
+		'tags' => ['java', '@smartprix'],
+		'image' => 'smartprix-app'
+	],
+	[
 		'filters' => ['web-php', 'web-js'],
 		'link' => 'https://justwravel.com',
 		'name' => 'Justwravel',

@@ -6,17 +6,15 @@
 	<?php include 'skill.php'; ?>
 	<!--End skill tab -->
 	<!--Portfolio Tab-->
-	<?php include 'portfolio.php'; ?>
+	<?php include 'projects.php'; ?>
 	<!--End portfolio tab-->
-	<!--Blog Tab-->	
-	<!--End blog tab-->
 	<!--Experience Tab-->
 	<?php include 'experience.php'; ?>
 	<!--End experience tab -->
 	<!--Education Tab-->
-	<?php include 'education.php'; ?>
+	<?php include 'education.html'; ?>
 	<!--End Education  tab -->
 	<!--Contact Tab-->
-	<?php include 'contact.php'; ?>
+	<?php include 'contact.html'; ?>
 	<!--End contact tab-->
 </div>
