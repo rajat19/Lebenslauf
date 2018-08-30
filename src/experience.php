@@ -1,10 +1,17 @@
 <?php
 $experiences = [
 	[
+		'company'	=> 'Paytm',
+		'role'		=> 'Software Engineer',
+		'start'		=> 'Aug 2018',
+		'current'	=> true,
+		'details'	=> 'Working with promotions team of paytm mall'
+	],
+	[
 		'company'	=> 'Smartprix.com',
 		'role'		=> 'Software Developer',
 		'start'		=> 'Jun 2017',
-		'current'	=> true,
+		'end'		=> 'Aug 2018',
 		'details'	=> 'Working on various projects using node js, vue js and other new technologies'
 	],
 	[
