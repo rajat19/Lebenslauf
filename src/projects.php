@@ -10,6 +10,20 @@ $filters = [
 
 $projects = [
 	[
+		'filters' => ['web-js', 'android'],
+		'link' => 'https://paytm.com',
+		'name' => 'Paytm Cashback Offers',
+		'tags' => ['nodejs', 'java', 'android', '@paytm'],
+		'image' => 'paytm-supercash'
+	],
+	[
+		'filters' => ['web-js', 'android'],
+		'link' => 'https://paytm.com',
+		'name' => 'Paytm Scratch Card',
+		'tags' => ['nodejs', 'java', 'android', '@paytm'],
+		'image' => 'paytm-scratch'
+	],
+	[
 		'filters' => ['web-js'],
 		'link' => 'https://smartprix.com',
 		'name' => 'Smartprix',

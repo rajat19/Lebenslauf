@@ -22,12 +22,12 @@
     $(document).ready(function() {
     	// $('#wrapper').hide();
         $(window).load(function() {
-            preloaderFade = 3000;
+            preloaderFade = 1500;
             function hidepreloader() {
                 // var p1 = $('.sk-cube-grid');
                 // p1.fadeOut(preloaderFade);
                 var p2 = $('.spinner-wrapper');
-                p2.delay(200).fadeOut(preloaderFade);
+                p2.delay(1500).fadeOut(preloaderFade);
                 // $('#wrapper').fadeIn(preloaderFade + 5000);
             }
             hidepreloader();
@@ -82,8 +82,8 @@ $('#wrapper').bind('easytabs:after', function() {
 	        }
 	      ],
 
-	       lat = 28.5943918,
-	       lng = 77.3789757,
+	       lat = 28.5737,
+	       lng = 77.3820,
 	       customMap = new google.maps.StyledMapType(styles,
 	          {name: 'Styled Map'}),
 
