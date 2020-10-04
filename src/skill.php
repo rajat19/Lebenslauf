@@ -1,31 +1,22 @@
 <?php
 $backend = [
-	'heading' => 'Web Development',
+	'heading' => 'Software Development',
 	'progress' => [
-		['Node JS (Express and Koa)', 92],
+		['Node JS (Express and Koa)', 97],
+		['Java', 92],
 		['PHP/MYSQL', 93],
 		['Laravel Framework', 83],
 		['Django Framework', 88]
 	]
 ];
 
-$frontend = [
-	'heading' => 'Frontend Development',
-	'progress' => [
-		['Vue JS', 87],
-		['HTML/CSS', 95],
-		['Bootstrap/Material Design', 96],
-		['Android Development', 73],
-	]
-];
-
 $coding = [
-	'heading' => 'Coding',
+	'heading' => 'Competetive Coding',
 	'progress' => [
-		['C/C++', 94],
-		['Python', 86],
-		['Java', 81],
-		['Javascript', 87],
+		['Python', 92],
+		['C/C++', 84],
+		['Java', 90],
+		['Javascript', 95],
 	]
 ];
 
@@ -35,11 +26,12 @@ $assets = [
 		['Responsible', 90],
 		['Creative', 82],
 		['Multitasking', 95],
+		['Leader', 90]
 	]
 ];
 
 $skills = [
-	$backend, $frontend, $coding, $assets
+	$backend, $coding, $assets
 ];
 ?>
 
