@@ -10,17 +10,45 @@ $filters = [
 
 $projects = [
 	[
-		'filters' => ['web-js', 'android'],
+		'filters' => ['web-py'],
+		'link' => 'https://nullifiers.github.io/Hackerrank-Solution-Crawler/',
+		'name' => 'Hackerrank Solutions Crawler',
+		'tags' => ['python'],
+		'image' => 'hsc'
+	],
+	[
+		'filters' => ['web-py'],
+		'link' => 'https://rajat19.github.io/torrent-crawler/',
+		'name' => 'Torrent Crawler',
+		'tags' => ['python'],
+		'image' => 'torrent-crawler'
+	],
+	[
+		'filters' => ['web-js'],
+		'link' => 'https://rajat19.github.io/jsniper/',
+		'name' => 'Jsniper',
+		'tags' => ['nodejs'],
+		'image' => 'jsniper'
+	],
+	[
+		'filters' => ['web-js'],
+		'link' => 'https://rajat19.github.io/journalista/',
+		'name' => 'Journalista',
+		'tags' => ['nodejs'],
+		'image' => 'journalista'
+	],
+	[
+		'filters' => ['web-js'],
 		'link' => 'https://paytm.com',
 		'name' => 'Paytm Cashback Offers',
-		'tags' => ['nodejs', 'java', 'android', '@paytm'],
+		'tags' => ['nodejs', 'java', '@paytm'],
 		'image' => 'paytm-supercash'
 	],
 	[
-		'filters' => ['web-js', 'android'],
+		'filters' => ['web-js'],
 		'link' => 'https://paytm.com',
 		'name' => 'Paytm Scratch Card',
-		'tags' => ['nodejs', 'java', 'android', '@paytm'],
+		'tags' => ['nodejs', 'java', '@paytm'],
 		'image' => 'paytm-scratch'
 	],
 	[
@@ -202,7 +230,7 @@ $projects = [
 										'.$tags.'
 									</h3>
 									</div>
-									<img alt="" src="img/projects/'.$image.'"/>
+									<img class="project-img" alt="" src="img/projects/'.$image.'"/>
 								</a>
 								</div>
 							</li>';
