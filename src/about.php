@@ -1,6 +1,6 @@
 <?php
 $name 		   = 'Rajat Srivastava';
-$current_roles = ['Web Developer', 'Machine Learning Enthusiast'];
+$current_roles = ['Software Engineer', 'Machine Learning Enthusiast'];
 $quotes = [
 	'Credentials are like potential energy, the compliments of a name on paper, in documents, word of mouth, but faith
 	is like kinetic energy, the motion and the force that which is witnessed. Hence in the end it is the faith rather
@@ -85,16 +85,18 @@ $details = [
 						?>
 					</div>
 					<div class="row tCenter margTop">
+						<div class="col-md-3"></div>
 						<div class="col-md-6">
-							<a class="but opc-1 ico" href="cvRajat.pdf" target="_blank">
+							<a class="but opc-1 ico" href="resume.pdf" target="_blank">
 								Download my cv
 							</a>
 						</div>
-						<div class="col-md-6">
-							<a class="but opc-1 ico" href="currentResume.pdf" target="_blank">
+						<div class="col-md-3"></div>
+						<!-- <div class="col-md-6">
+							<a class="but opc-1 ico" href="resume.pdf" target="_blank">
 								One Page Resume
 							</a>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
